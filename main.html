@@ -4,49 +4,25 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
-	
-	<table class="table table-responsive table-hover">
-		<caption>List of All transations</caption>
-  <thead class="table-dark">
-    <tr>
-      <th scope="col" colspan="1" >#</th>
-      <th scope="col" colspan="1" >From</th>
-      <th scope="col" colspan="1" >To</th>
-      <th scope="col" colspan="3" >Amount</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row"  >1</th>
-      <td >Mark</td>
-      <td >Otto</td>
-      <td id="total" colspan="3">1000</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td  id="total" colspan="3">1500</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Jake</td>
-	  <td >John</td>
-      <td  id="total" colspan="3">2000</td>
-    </tr>
-  </tbody>
-  <tfoot class="table-light">
-	<tr  id="total" style="text-align: end; font: monospace; font-weight: bold;" >
-		<td colspan="3" >Total</td>
-		<td >4000</td>
-	</tr>
-  </tfoot>
-</table>
-       
+	<div class="modal" tabindex="-1" id="newton-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id = "accio-modal" i>New Modal</h5>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur nostrum in placeat officia totam itaque soluta voluptas. Illo ad expedita consequuntur repellendus molestiae at delectus asperiores facere perferendis incidunt?
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id = "open-modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
