@@ -7,18 +7,25 @@
 </head>
 
 <body>
-	<div class="modal " tabindex="-1" id="newton-modal">
-  <div class="modal-dialog modal-dialog-centered">
+	
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="newton-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id = "accio-modal" i>New Modal</h5>
+        <h5 class="modal-title" id="exampleModalLabel">New Modal</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur nostrum in placeat officia totam itaque soluta voluptas. Illo ad expedita consequuntur repellendus molestiae at delectus asperiores facere perferendis incidunt?
-		</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse consequuntur nostrum in placeat officia totam itaque soluta voluptas. Illo ad expedita consequuntur repellendus molestiae at delectus asperiores facere perferendis incidunt?</p>
       </div>
-      <div class="modal-footer" id="newton-modal">
-        <button type="button" data-bs-toggle="newton-modal" data-bs-target="newton-modal"  class="btn btn-secondary " data-bs-dismiss="modal" id = "open-modal">Close</button>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
